@@ -1,4 +1,152 @@
+/*** Common CSS ****/
+
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+img{
+    width: 100%;
+}
+
+
+.highlighted-text{
+    color: #2258CB;
+}
+
+/*** Header Area ***/
+.menu{
+    text-align: right;
+    padding: 30px 0;
+}
+.menu li{
+    list-style: none;
+    display: inline-block
+}
+
+.menu a{
+    padding: 0 5px;
+    color: #000;
+    font-size: 16px;
+}
+
+
+/**** Hero Section ***/
+.hero-section,
+.hero-section .container{
+    overflow: hidden;
+    height: 400px;
+}
+.hero-section h1{
+    font-size: 50px;
+}
+.hero-section p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 0;
+}
+.hero-section .button{
+    background-color: #2258CB;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: inline-block;
+}
+
+.hero-section .content{
+    margin-top: 25px;
+}
+
+.hero-section .hero-left{
+    width: 50%;
+    float: left;
+}
+.hero-section .haero-right{
+    width: 50%;
+    overflow: hidden;
+}
+
+/*** Project Section **/
+ .work-section{
+     padding-bottom: 90px;
+     overflow: hidden;
+ }
+
+.work-section img{
+     height: 250px;
+ }
+ .work-section h2{
+     font-size: 45px;
+     text-align: center;
+     margin: 50px 0;
+ }
+ .work-section h4 {
+     margin: 10px 0;
+ }
+ .work-section p {
+     line-height: 25px;
+     text-align: justify;
+ }
+.work-section .project-first{
+    width: 28%;
+    float: left;
+    padding: 2%;
+    
+}
+.work-section .project-second{
+    width: 28%;
+    float: left;
+    overflow: hidden;
+    margin: 0 2%;
+    padding: 2%;
+    
+}
+.work-section .project-third{
+    width: 28%;
+    float: left;
+    overflow: hidden;
+    padding: 2%;
+    
+}
+
+.work-section .box-shadow{
+    box-shadow: 10px 8px 20px #999ca3;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.box-shadow:hover{
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 10px 8px 20px #2257cb84;
 }
